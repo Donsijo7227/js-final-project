@@ -1,3 +1,4 @@
+/* Global reset */
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +6,13 @@
     box-sizing: border-box;
 }
 
+/* Body styles */
 body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 10%, rgba(120, 120, 228, 1) 83%, rgba(0, 212, 255, 1) 100%);
+    background: rgb(210 207 255);
+    /* Background color */
 }
 
+/* Styling for the main card */
 .card {
     width: 90%;
     max-width: 470px;
@@ -21,6 +24,7 @@ body {
     text-align: center;
 }
 
+/* Styling for search bar */
 .search {
     width: 100%;
     display: flex;
@@ -57,54 +61,60 @@ body {
     width: 16px;
 }
 
+/* Weather icon */
 .weather-icon {
     width: 170px;
     margin-top: 30px;
 }
 
+/* Temperature styles */
 .weather h1 {
     font-size: 80px;
     font-weight: 500;
 }
 
+/* City name styles */
 .weather h2 {
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
 }
 
+/* Details container */
 .details {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
-
 }
 
+/* Column styles */
 .col {
     display: flex;
     align-items: center;
     text-align: left;
 }
 
+/* Icon styles */
 .col img {
     width: 40px;
     margin-right: 10px;
-
 }
 
+/* Humidity and wind styles */
 .humidity,
 .wind {
     font-size: 28px;
     margin-top: -6px;
 }
 
-
+/* Hide weather initially */
 .weather {
     display: none;
 }
 
+/* Error message styles */
 .error {
     text-align: left;
     margin-left: 10px;

@@ -5,24 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <!-- External CSS file -->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- External JavaScript file  -->
+    <script src="js/script.js" defer></script>
 </head>
 <body>
 
 
 <div class="card">
     <div class="search">
+        <!-- Input field for entering city name -->
         <input type="text" placeholder="enter city name" spellcheck="false">
+        <!-- Button for submitting the search -->
         <button><img src="images/search.png"></button>
     </div>
     <div class="error">
+        <!-- Display area for error message if city name is invalid -->
         <p>Invalid city name</p>
     </div>
     <div class="weather">
+        <!-- Weather icon -->
         <img src="images/rain.png" class="weather-icon">
+        <!-- Current temperature -->
         <h1 class="temp">22°C</h1>
+        <!-- City name -->
         <h2 class="city">New York</h2>
+        <!-- Weather details -->
         <div class="details">
+            <!-- Humidity details -->
             <div class="col">
                 <img src="images/humidity.png" alt="icon">
                 <div>
@@ -30,6 +41,7 @@
                     <p>Humidity</p>
                 </div>
             </div>
+            <!-- Wind speed details -->
             <div class="col">
                 <img src="images/wind.png" alt="icon">
                 <div>
